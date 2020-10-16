@@ -1,3 +1,4 @@
 <?php
-  echo "Hello word";
+  get_header();
+  echo wp_title;
 ?>
