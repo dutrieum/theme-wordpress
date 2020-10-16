@@ -1,4 +1,5 @@
 <?php
   get_header();
-  echo wp_title;
+  $blog_title = get_bloginfo($name, $raw);
+  echo $blog_title;
 ?>
